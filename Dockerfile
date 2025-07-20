@@ -11,7 +11,6 @@ RUN npm install --only=production
 # Copy the rest of the app
 COPY . .
 
-
 # Optionally expose port (if needed)
 EXPOSE 3000
 
